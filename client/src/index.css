@@ -70,3 +70,26 @@ body {
   padding: 5px 10px;
   background-color: lightskyblue;
 }
+
+.movie-list {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.movie-link,
+.saved-movie:not(.saved-active),
+.home-button {
+  color: inherit;
+  text-decoration: none;
+}
+
+.save-button {
+  font: inherit;
+  cursor: pointer;
+}
+
+.not-found,
+.movie-error {
+  width: 75%;
+  margin: 1rem auto;
+}
