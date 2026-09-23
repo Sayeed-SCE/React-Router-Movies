@@ -15,10 +15,9 @@
   "bugs": {
     "url": "https://github.com/BloomInstituteOfTechnology/SPA-Routing-React/issues"
   },
-  "homepage": "hhttps://github.com/BloomInstituteOfTechnology/SPA-Routing-React#readme",
+  "homepage": "https://github.com/BloomInstituteOfTechnology/SPA-Routing-React#readme",
   "dependencies": {
-    "body-parser": "^1.19.2",
-    "cors": "^2.8.5",
-    "express": "^4.17.3"
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
   }
 }
