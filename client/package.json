@@ -7,6 +7,7 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
+    "build:demo": "VITE_DEMO=true VITE_BASE=/React-Router-Movies/ vite build && cp dist/index.html dist/404.html",
     "preview": "vite preview",
     "test": "vitest"
   },
