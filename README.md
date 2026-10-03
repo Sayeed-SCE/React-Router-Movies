@@ -1,5 +1,7 @@
 # React Router Movies
 
+**[▶ Live demo](https://sayeed-sce.github.io/React-Router-Movies/)**: runs entirely in the browser; API responses are served by a built-in demo mode that uses the same logic as the Express server.
+
 A small single-page app for browsing movies, built on the BloomTech "Client Side Routing" project and updated to a current stack:
 
 - **React 19** with **React Router 8** (declarative `BrowserRouter` / `Routes`)
@@ -47,3 +49,11 @@ The Vite dev server proxies `/api/*` to the Express server, so the client uses r
 | GET    | `/api/movies`     | All movies (id, title, director, metascore)     |
 | GET    | `/api/movies/:id` | One movie including `stars`, or 404             |
 | POST   | `/api/movies`     | Adds a movie (in memory) and returns the list   |
+
+## Deploying the demo
+
+```bash
+npm run build:demo   # static build for GitHub Pages (run in client/)
+```
+
+The output is published to the `gh-pages` branch.
